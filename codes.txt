@@ -1,0 +1,1 @@
+nmap -p- : Using nmap -p- ensures you do not miss any open ports that could be hidden outside of the default scan range.The Nmap command nmap -p- is used to scan all 65,535 possible ports on a target system. By default, Nmap only scans the 1,000 most commonly used ports, so the -p- flag is essential for a comprehensive port assessment. 
