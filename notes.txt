@@ -1,1 +1,12 @@
 nmap -p- : Using nmap -p- ensures you do not miss any open ports that could be hidden outside of the default scan range.The Nmap command nmap -p- is used to scan all 65,535 possible ports on a target system. By default, Nmap only scans the 1,000 most commonly used ports, so the -p- flag is essential for a comprehensive port assessment. 
+
+
+The du command is used to summarize file space usage. It is primarily a reporting tool for file and directory sizes. 
+Use the gigabyte flag (-g)
+Command: du -h human readable 
+
+
+The find command is used to search for files and directories within a directory hierarchy based on a wide range of criteria. 
+Common uses:
+Locating files by name: You can search for files with a specific name, even with wildcards. For example, find /home -name "report.txt" searches for a file named report.txt in the /home directory and its subdirectories.
+Filtering by type: You can refine your search to look for only files (-type f), directories (-type d), or symbolic links (-type l).
